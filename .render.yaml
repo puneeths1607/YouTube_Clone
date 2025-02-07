@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: youtube
+    env: node  # Use Node.js environment
+    buildCommand: npm install && npm run build  # Install dependencies and build the project
+    startCommand: serve -s build  # Serve the build after it's built
+    branch: main  # The branch to deploy from
+    plan: free  # You can adjust the plan as per your needs
