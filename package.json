@@ -1,5 +1,5 @@
 {
-  "name": "first",
+  "name": "youtube",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -23,13 +23,13 @@
     "serve": "^14.2.4",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "deploy": "serve -s build"
-  },
+ "scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject",
+  "deploy": "serve -s build"
+},
   "eslintConfig": {
     "extends": [
       "react-app",
